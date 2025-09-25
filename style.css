@@ -1,0 +1,61 @@
+body {
+font-family: Arial;  /*Changes the font for th entire page */
+background-color: purple; /*Sets a purple background color */
+color: white
+}
+h1 {
+color: yellow;
+ }
+nav a{
+color: black;
+}
+h2 {
+color: red;
+}
+div p {
+color: black;
+}
+
+.about-section {
+background-color: black;
+border: 1px solid #ccc;
+padding: 10;
+margin: 10px;
+border-radius: 8px;
+}
+
+div > p {
+ font-weight: bold;
+}
+
+/*Grou selector*/
+h1,h2,p {
+font-family: Arial;
+}
+
+.portfolio-section{
+background-color: black;
+border: 1px solid #ccc;
+padding: 10px;
+margin: 3px;
+border-radius: 2px;
+} 
+
+.index-section{
+background-color: black;
+border: 2px solid #ccc;
+padding: 10px;
+margin: 3px;
+border-radius: 1px;
+} 
+div p{
+ color: white;
+}
+
+.contact-section{
+background-color: black;
+border: 2px solid #ccc;
+padding: 10px;
+margin: 3px;
+border-radius: 0;
+}
